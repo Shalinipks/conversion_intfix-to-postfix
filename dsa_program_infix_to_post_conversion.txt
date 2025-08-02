@@ -1,3 +1,4 @@
+// c program to convert infix expression to postfix expression using data structures.
 #include <stdio.h>
 #include <ctype.h>  // for isalnum
 #include <string.h>
@@ -59,4 +60,5 @@ int main() {
     scanf("%s", infix);
     infixToPostfix(infix);
     return 0;
+
 }
